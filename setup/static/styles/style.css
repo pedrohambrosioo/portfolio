@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.portfolio{
+    color: white;
+    font-size: 40px;
+}
+.portfolio span{
+    color: #f9004d;
+}
+
+li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+li:hover{
+    color:#f9004d;
+    transition: 0.5s;
+}
+
+.meu-nome{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;    
+    font-size: 23px;
+}
+.meu-nome span{
+    color: #f9004d;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding:60px 10%;
+    padding-left: 180px;
+    background-color: black;
+    justify-content: space-between;
+}
+section img{
+    margin-right: 25px;
+    height: 250px;
+}
+
+section div h2{
+    color: white;
+    font-size: 75px;
+}
+section div p{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+section div p span{
+    color: #f9004d;
+}
+section div button{
+    color: white;
+    background-color: #f9004d;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+}
+section div button:hover{
+    background-color: black;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
+    cursor: pointer
+}
