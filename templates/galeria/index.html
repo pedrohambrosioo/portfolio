@@ -44,14 +44,41 @@
     </div>
 </section>
 
-<div>
-    <h2>Principais Projetos</h2>
-    <div class="card">
-        <img src="" alt="">
-        <h5></h5>
-        <p></p>
+<div class="projetos">
 
+    <h2>Principais Projetos</h2>
+    <div class="card-projeto">
+    <div class="card">
+        <img src="{% static '/assets/img/mao.png' %}" alt="">
+        <h5>MediaPipe</h5>
+        <p>Se trata de um programa que captura e processa as imagens de uma câmera. Identifica uma mão, e interpreta quantos dedos estão sendo mostrados.</p>
+        <a href="https://github.com/pedrohambrosioo/Mediapipe" target="_blank">Ver projeto</a>
+    </div>
+    <div class="card">
+        <img src="{% static '/assets/img/port.png' %}" alt="">
+        <h5>PortFólio</h5>
+        <p>Se trata desse site. Foi usado o Django como Framework de desenvolvimento web. Além de conhecimentos com banco de dados e html e css.</p>
+        <a href="https://github.com/pedrohambrosioo/portfolio" target="_blank" >Ver projeto</a>
+    </div>
+    <div class="card">
+        <img src="{% static '/assets/img/sql.png' %}" alt="">
+        <h5>CRUD</h5>
+        <p>Se trata de um programa de cadastro, leitura, update e delete de informações de um banco de dados MySql. Manejando dados como: user e senha.</p>
+        <a href="https://github.com/pedrohambrosioo/database" target="_blank">Ver projeto</a>
     </div>
 </div>
+</div>
+<footer>
+    <h5>Pedro Henrique Ambrosio</h5>
+    <p>Para mais informações</p>
+    
+    <div class="social">
+        <a><img src="{% static '/assets/img/email.png' %}" alt=""></a>
+        <a href="https://github.com/pedrohambrosioo" target="_blank"><img src="{% static '/assets/img/git.png' %}" alt=""></a>
+        <a href="https://www.linkedin.com/in/pedro-ambrosio-659203271/" target="_blank"><img src="{% static '/assets/img/linkedin.png' %}" alt=""></a>
+        <a href="https://wa.me/5519998887950" target="_blank"><img src="{% static '/assets/img/telefone.png' %}" alt=""></a>
+    </div>
+</footer>
+
 </body>
 </html>  
