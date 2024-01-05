@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Henrique Ambrosio - portfólio</title>
+    <title>Pedro Ambrosio - Portfólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,26 +22,47 @@
     <nav>
         <h2 class="portfolio">Port<span>Fólio</span></h2>
         <ul>
-            <li><a href="/" target="_blank"><span>Home</span></a></li>
-            <li><a href="/teste" target="_blank">Sobre</a></li>
+            <li><a href=#home><span>Home</span></a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#trajetoria">Trajetória</a></li>
             <li><a href="#projetos">Projetos</a></li>
-            <li><a>Fale comigo</a></li>
+            <li><a href="#fale-comigo">Fale comigo</a></li>
         </ul>
     </nav>
-    <div class="meu-nome">
+    <div class="meu-nome" id="home">
         <h1>Pedro Henrique <span>Ambrosio</span></h1>
         <h3>Programador <span>Back-End</span></h3>
     </div>
 </div>
 
-<section>
+<section id="about">
     <img src="{% static '/assets/img/sobre_mim.png' %}">
     <div>
         <h2>Sobre mim:</h2>
         <p>Seja bem-vindo, sou um entusiasta do desenvolvimento <span>back-end</span> com foco em <span>python</span>. Desde construção de <span>API's</span>, até de sites, com o uso do framework <span>Django</span>. Minhas habilidades também incluem por soluções com <span>banco de dados</span> onde aplico técnicas de modelagem e otimização para garantir bases <span>sólidas e eficientes</span>.</p>
-        <button>Entre em contato</button>
-    </div>
+    </div>    
 </section>
+
+<div class="about-me" id="trajetoria" >
+
+    <h2>Minha Trajetória:</h2>
+    <div class="card-vida">
+    <div class="card-carrer">
+        <h5><span>Infância (2016-2019)</span></h5>
+        <p>Na Infância, a programação entrou na minha vida de forma lúdica. O arduino me cativou a fazer pequenos circuitos e aprender alguns conceitos  da linguagem C++. </p>
+
+    </div>
+    <div class="card-carrer">
+        <h5><span>Adolescência (2020-2022)</span></h5>
+        <p>Nessa fase, ralizei meu Técnico em Mecatrônica. Desenvolvi muito a minha lógica de programação através dos microcontroladores, que eram programados em C. Foi muito importante esse curso por me iluminar a seguir o caminho que quero seguir hoje.</p>
+    </div>
+    <div class="card-carrer">
+        <h5><span>Agora . . .</span></h5>
+        <p>Atualmente estou cursando Engenharia de Software. Desenvolvendo projetos que me agregam conhecimentos e me faça ser um profissional de ponta. Todos os dias dedico horas em estudo e em desenvolvimento para que esse não seja o último quadro da minha carreira. </p>
+
+    </div>
+</div>
+
 
 <div class="projetos" id="projetos">
 
@@ -69,16 +90,18 @@
 
 
 </div>
-<footer>
-    <h5> Feito por Pedro Henrique Ambrosio</h5>
-    <p>Para mais informações</p>
+<footer id="fale-comigo">
+    <h5>Desenvolvido por Pedro</h5>
+    <p>Entre em contato por:</p>
     
     <div class="social">
+        <a href="mailto:pedro.ambro@hotmail.com"><img src="{% static '/assets/img/email.png' %}"></a>
         <a href="https://instagram.com/pedrohambrosioo" target="_blank"><img src="{% static '/assets/img/insta.png' %}" alt=""></a>
         <a href="https://github.com/pedrohambrosioo" target="_blank"><img src="{% static '/assets/img/git.png' %}" alt=""></a>
         <a href="https://www.linkedin.com/in/pedro-ambrosio-659203271/" target="_blank"><img src="{% static '/assets/img/linkedin.png' %}" alt=""></a>
         <a href="https://wa.me/5519998887950" target="_blank"><img src="{% static '/assets/img/telefone.png' %}" alt=""></a>
-    </div>
+    </div>   
+    <p>pedro.ambro@hotmail.com</p>
 </footer>
 
 </body>

@@ -65,6 +65,7 @@ section{
     padding-left: 180px;
     background-color: black;
     justify-content: space-between;
+    text-align: center;
 }
 section img{
     margin-right: 25px;
@@ -80,6 +81,7 @@ section div p{
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 section div p span{
     color: #f9004d;
@@ -98,6 +100,65 @@ section div button:hover{
     border: 2px solid #f9004d;
     transition: 0.5s;
     cursor: pointer
+}
+
+.about-me{
+    background-color: #000000;      
+    padding-top: 70px;
+    padding-bottom: 80px;  
+}
+.about-me h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.card-vida{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.card-carrer{
+    background-color: black;
+    height: 365px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+.card-carrer h5{
+    font-size: 30px;
+}
+.card-carrer p{
+    text-align: justify;
+}
+
+.card h5{
+    color: white;
+    font-size: 40px;
+    
+}
+.card p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+.card a{
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
 }
 
 .projetos{
@@ -156,8 +217,8 @@ section div button:hover{
 
 footer{
     background-color: black;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,27 +236,7 @@ footer p{
     margin-top: 14px;
 
 }
-.about-footer footer{
-    background-color: black;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.about-footer footer h5{
-    color: white;
-    font-size: 30px;
 
-}
-.about-footer footer p{
-    color: white;
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-top: 14px;
-
-}
 
 .social img{
     height: 25px;
@@ -240,6 +281,7 @@ footer p{
     align-items: center;
     justify-content: center;
   }
+  
   
   .timeline {
     width: 1900px;
